@@ -45,11 +45,15 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the LineageOS trees to build TWRP, use a command like this:
 
-    repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_lineageos.git -b twrp-14.1
+    repo init -u git://github.com/edward0181/platform_manifest_twrp_lineageos -b twrp-14.1
+    
+Adding Samsung A12
+
+    git clone https://github.com/edward0181/twrp_samsung_a12 -b twrp-10.0 device/samsung/a12
 
 Then to sync up:
 
-    repo sync
+    repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 Then to build:
 
