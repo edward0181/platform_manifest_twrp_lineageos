@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
@@ -506,5 +506,6 @@
   <!-- project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" /> -->
   <!-- project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" /> -->
 
-  <include name="snippets/cm.xml" />
-  </manifest>
+<include name="snippets/cm.xml" />
+
+</manifest>
