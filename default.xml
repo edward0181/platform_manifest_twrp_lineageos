@@ -32,7 +32,7 @@
   <!-- project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" /> -->
   <!-- project path="art" name="LineageOS/android_art" groups="pdk" /> -->
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-11" groups="pdk-cw-fs"/>
+  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <!-- project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="developers/build" name="platform/developers/build" remote="aosp" /> -->
@@ -66,13 +66,13 @@
   <!-- project path="external/archive-patcher" name="platform/external/archive-patcher" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/autotest" name="platform/external/autotest" remote="aosp" /> -->
   <!-- project path="external/avahi" name="platform/external/avahi" remote="aosp" /> -->
-  <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
+  <!-- <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <project path="external/boringssl" name="LineageOS/android_external_boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <!-- project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" /> -->
-  <project path="external/bzip2" name="LineageOS/android_external_bzip2" groups="pdk" />
-  <project path="external/busybox" name="LineageOS/android_external_busybox" revision="cm-14.1" />
+  <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
+  <!-- <project path="external/busybox" name="LineageOS/android_external_busybox" revision="cm-14.1" /> -->
   <!-- project path="external/c-ares" name="platform/external/c-ares" remote="aosp" /> -->
   <!-- project path="external/caliper" name="platform/external/caliper" remote="aosp" /> -->
   <!-- project path="external/cblas" name="platform/external/cblas" groups="pdk" remote="aosp" /> -->
@@ -93,7 +93,7 @@
   <!-- project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" remote="aosp" /> -->
   <!-- project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" remote="aosp" /> -->
-  <project path="external/dlmalloc" name="platform/external/dlmalloc" remote="aosp" />
+  <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" remote="aosp" />
   <!-- project path="external/dng_sdk" name="platform/external/dng_sdk" remote="aosp" /> -->
   <!-- project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
@@ -106,14 +106,14 @@
   <!-- project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/eigen" name="platform/external/eigen" groups="pdk" remote="aosp" /> -->
-  <project path="external/elfutils" name="LineageOS/android_external_elfutils" groups="pdk" />
+  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="aosp" />
   <!-- project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
-  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" />
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" remote="aosp" />
   <!-- project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" /> -->
-  <project path="external/fec" name="platform/external/fec" remote="aosp" />
+  <project path="external/fec" name="platform/external/fec" groups="pdk" remote="aosp" />
   <!-- project path="external/fio" name="platform/external/fio" groups="pdk-fs" remote="aosp" /> -->
   <!-- project path="external/flac" name="LineageOS/android_external_flac" groups="pdk" /> -->
   <!-- project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" remote="aosp" /> -->
@@ -130,7 +130,7 @@
   <!-- project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" remote="aosp" /> -->
-  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk-fs" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" />
   <!-- project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/guice" name="platform/external/guice" groups="pdk" remote="aosp" /> -->
@@ -151,7 +151,8 @@
   <!-- project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/jcommander" name="platform/external/jcommander" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
-  <project path="external/jemalloc" name="LineageOS/android_external_jemalloc" groups="pdk" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
+  <project path="external/jemalloc_new" name="platform/external/jemalloc_new" groups="pdk" remote="aosp" />
   <!-- project path="external/jetty" name="platform/external/jetty" groups="pdk-fs" remote="aosp" /> -->
   <!-- project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" /> -->
@@ -166,10 +167,10 @@
   <!-- project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/libavc" name="platform/external/libavc" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/libbrillo" name="platform/external/libbrillo" remote="aosp" /> -->
-  <project path="external/libcap" name="platform/external/libcap" remote="aosp" />
+  <project path="external/libcap" name="platform/external/libcap" groups="pdk" remote="aosp" />
   <!-- project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/libchrome" name="platform/external/libchrome" remote="aosp" /> -->
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
+  <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
   <!-- project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" remote="aosp" /> -->
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
@@ -193,9 +194,9 @@
   <!-- project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
-  <project path="external/libselinux" name="LineageOS/android_external_libselinux" groups="pdk" />
+   <!-- <project path="external/libselinux" name="LineageOS/android_external_libselinux" groups="pdk" /> -->
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
-  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" remote="aosp" />
+  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" remote="aosp" />
   <!-- project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
@@ -204,19 +205,19 @@
   <!-- project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/libweave" name="platform/external/libweave" remote="aosp" /> -->
-  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="aosp" />
+  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" remote="aosp" />
   <!-- project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/lld" name="platform/external/lld" groups="pdk-fs" remote="aosp" /> -->
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/lzma" name="LineageOS/android_external_lzma" groups="pdk" />
+  <project path="external/lz4" name="platform/external/lz4" groups="pdk" remote="aosp" />
+  <project path="external/lzma" name="platform/external/lzma" groups="pdk" remote="aosp" />
   <!-- project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/messageformat" name="platform/external/messageformat" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
-  <project path="external/minijail" name="platform/external/minijail" remote="aosp" />
+  <project path="external/minijail" name="platform/external/minijail" groups="pdk" remote="aosp" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" />
   <!-- project path="external/mmc-utils" name="platform/external/mmc-utils" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk-fs" remote="aosp" /> -->
@@ -298,7 +299,7 @@
   <!-- project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
-  <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
+  <project path="external/zlib" name="platform/external/zlib" groups="pdk" remote="aosp" />
   <!-- project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" /> -->
@@ -355,7 +356,7 @@
   <!-- project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" /> -->
   <!-- project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense" /> -->
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" />
   <!-- project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" /> -->
   <!-- project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" /> -->
   <!-- project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" /> -->
@@ -363,16 +364,16 @@
   <!-- project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom" /> -->
   <!-- project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" /> -->
   <!-- project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps" /> -->
-  <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
+  <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
   <!-- project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom" /> -->
   <!-- project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" /> -->
   <!-- project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" /> -->
   <!-- project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" /> -->
   <!-- project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" /> -->
   <!-- project path="hardware/ti/omap4xxx" name="LineageOS/android_hardware_ti_omap4xxx" groups="omap4" /> -->
-  <project path="libcore" name="LineageOS/android_libcore" groups="pdk" />
+  <project path="libcore" name="platform/libcore" groups="pdk" remote="aosp" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
-  <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
+  <!-- <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" /> -->
   <!-- project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" groups="pdk-fs" /> -->
@@ -445,11 +446,11 @@
   <!-- project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" /> -->
   <!-- project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" clone-depth="1" remote="aosp" /> -->
   <!-- project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" groups="pdk,darwin,x86" clone-depth="1" /> -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <!-- project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" /> -->
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" />
   <!-- project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" clone-depth="1" remote="aosp" /> -->
   <!-- project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" /> -->
   <!-- project path="prebuilts/gdb/darwin-x86" name="platform/prebuilts/gdb/darwin-x86" groups="darwin" clone-depth="1" remote="aosp" /> -->
@@ -466,7 +467,7 @@
   <!-- project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" /> -->
   <!-- project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" /> -->
   <!-- project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" /> -->
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp">
   <!-- project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" /> -->
   <!-- project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" /> -->
@@ -475,15 +476,15 @@
   <!-- project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" /> -->
   <!-- project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" /> -->
   <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
-  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
+  <project path="system/extras" name="platform/system/extras" groups="pdk" remote="aosp" />
   <!-- project path="system/firewalld" name="platform/system/firewalld" remote="aosp" /> -->
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
-  <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
+  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" />
   <!-- project path="system/media" name="LineageOS/android_system_media" groups="pdk" /> -->
   <!-- project path="system/nativepower" name="platform/system/nativepower" remote="aosp" /> -->
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
   <!-- project path="system/nvram" name="platform/system/nvram" remote="aosp" /> -->
-  <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
+  <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
   <!-- project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="system/tpm" name="platform/system/tpm" remote="aosp" /> -->
@@ -506,5 +507,6 @@
   <!-- project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" /> -->
 
   <include name="snippets/cm.xml" />
+   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 </manifest>
