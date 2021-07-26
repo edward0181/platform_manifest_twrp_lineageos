@@ -507,6 +507,4 @@
   <!-- project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" /> -->
 
   <include name="snippets/cm.xml" />
-   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-
-</manifest>
+  </manifest>
